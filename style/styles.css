@@ -1,7 +1,13 @@
 .parent{
-    padding: 30px;
+    padding: 25px;
     background-color: rgb(246, 205, 2);
     display: flex;
+    gap: 30px;
+    justify-content:space-between;
+    height: 350px;
+    align-items:row;
+    flex-direction:row;
+    flex-wrap:wrap ;
 }
 
 .child {
@@ -9,6 +15,6 @@
     background: rgba(135, 207, 235, 0.795);
     padding: 15px;
     font-size: 20px;
-    margin: 20px 0px;
-    width: 200px;
+    /* margin: 20px 0px;
+    width: 200px; */
 }
